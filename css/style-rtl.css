@@ -108,6 +108,11 @@ ul{
 .abc div{
     font-size: 14.5px;
 }
+@media (max-width:768px) {
+    .abc img{max-width: 45%; max-height:225px;}
+    .abc div{margin-top: -25px; font-size: small;}
+
+}
 /* Construction End */
 
 /* Who we are Start */
